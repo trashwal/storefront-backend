@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS orders_products (
+  id SERIAL PRIMARY KEY,
+  order_id INTEGER NOT NULL,
+  product_id INTEGER NOT NULL
+);
